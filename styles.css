@@ -1,0 +1,112 @@
+    
+    body {
+        width: 375px;
+        height: auto;
+        background-color: #674baf;
+    }
+
+
+    #logo {
+        width: 125px;
+        position: absolute;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    #purple-logo {
+        position: absolute;
+        width: 375px;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+    }
+
+    #mockups {
+        position: relative;
+        width: 300px;
+        padding-top: 115px;
+        padding-left: 25px;
+    }
+
+    .container {
+        padding-top: 30px;
+    }
+
+    .heading {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .heading, .paragraph {
+        width: 350px;
+        text-align: center;
+    }
+
+    .paragraph {
+        color: rgb(197, 192, 192);
+        padding-left: 20px;
+        width: 320px;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #btn {
+        padding-left: 20%;
+        padding-top: 15px;
+
+    }
+
+    button {
+        text-decoration: none;
+        border: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        padding: 10px 75px;
+        border-radius: 15px;
+        color: #674baf;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+
+
+    
+    .attribution {
+     font-size: 30px; 
+     text-align: center;
+     padding-right: 10px;
+     padding-top: 35px; 
+     color: white;
+    }
+
+
+
+
+    .social-btn:hover, button:hover { 
+    color: hsl(300, 69%, 71%); 
+    }
+
+
+    /* Media Quaries */
+
+    @media screen and (max-width: 700px) {
+        
+        
+        
+        #purple-logo {
+            visibility:visible;
+        }
+        
+        
+    }
+
+
+
+@media screen and (min-width: 700px) {
+        #purple-logo {
+            visibility: hidden;
+        }
+        
+        
+    }
